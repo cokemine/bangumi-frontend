@@ -24,7 +24,6 @@
   "include": [
     "./packages",
     "./jest-setup.ts",
-    ".eslintrc.js",
-    "./packages/design/.storybook/*"
+    ".eslintrc.js"
   ]
 }
