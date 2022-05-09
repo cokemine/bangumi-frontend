@@ -19,12 +19,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["jest", "vite-plugin-svgr/client"]
+    "types": ["jest", "vite-plugin-svgr/client"],
+    "baseUrl": "."
   },
   "include": [
-    "./packages",
-    "./jest-setup.ts",
-    ".eslintrc.js",
-    "./packages/design/.storybook/*"
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "jest-setup.ts",
+    ".eslintrc.js"
   ]
 }
